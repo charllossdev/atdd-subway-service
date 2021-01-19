@@ -11,9 +11,9 @@ import lombok.Getter;
 public class Money {
 
 	private static final long ZERO_MONEY = 0L;
-	private final long money;
-	
 	public static final Money ZERO = Money.of(ZERO_MONEY);
+	
+	private final long money;
 
 	public Money() {
 		this.money = ZERO_MONEY;
